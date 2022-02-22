@@ -95,7 +95,7 @@ for line in getNetList(urlClodfront):
   f.write (command + '\n')
   listadoObjectos.append(name)
 f.write ('\n')
-f.write ('### Fin de los Objetos\n')
+f.write ('### Fin de los Objetos \n')
 f.write ('\n')
 f.write ("sleep 60\n")
 f.write ("mgmt_cli -s id.txt publish\n")
